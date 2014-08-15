@@ -24,7 +24,10 @@
     //////////////////////////////
     this.has = function (el, has) {
       var states = self.get(el);
-      if (states.indexOf(has) !== -1) {
+      if (states === null) {
+	return false
+      }
+      else if (states.indexOf(has) !== -1) {
         return true;
       }
       else {
