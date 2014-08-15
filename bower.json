@@ -1,0 +1,22 @@
+{
+  "name": "Data-State",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Snugug/Data-State",
+  "authors": [
+    "Sam Richard <snugug@gmail.com>"
+  ],
+  "description": "Small JavaScript helper for setting the `data-state` attribute of an element",
+  "main": "dist/data-state.min.js",
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

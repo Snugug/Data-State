@@ -1,0 +1,30 @@
+{
+  "name": "Data-State",
+  "version": "0.0.0",
+  "description": "Small JavaScript helper for setting the `data-state` attribute of an element",
+  "main": "dist/data-state.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Snugug/Data-State.git"
+  },
+  "author": "Sam Richard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Snugug/Data-State/issues"
+  },
+  "homepage": "https://github.com/Snugug/Data-State",
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-jshint": "^1.8.4",
+    "gulp-rename": "^1.2.0",
+    "gulp-sourcemaps": "^1.1.1",
+    "gulp-uglify": "^0.3.1",
+    "jshint-stylish": "^0.4.0"
+  },
+  "dependencies": {
+    "gulp-uglifyjs": "^0.4.2"
+  }
+}
