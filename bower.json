@@ -1,6 +1,6 @@
 {
   "name": "Data-State",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/Snugug/Data-State",
   "authors": [
     "Sam Richard <snugug@gmail.com>"
@@ -17,6 +17,10 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "bower.json",
+    "package.json",
+    "index.html",
+    "Gulpfile.js"
   ]
 }
