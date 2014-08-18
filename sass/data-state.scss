@@ -1,0 +1,33 @@
+@function state-includes($state) {
+  @return '[data-state~="#{$state}"]';
+}
+
+//////////////////////////////
+// For when an item has a state
+//////////////////////////////
+@mixin has-state($state) {
+  &#{state-includes($state)} {
+    @content;
+  }
+}
+
+@mixin lacks-state($state) {
+  &:not(#{state-includes($state)}) {
+    @content;
+  }
+}
+
+//////////////////////////////
+// For when an item only has one state
+//////////////////////////////
+@mixin state($state) {
+  #{state-includes($state)} {
+    @content;
+  }
+}
+
+@mixin not-state($state) {
+  :not(#{state-includes($state)}) {
+    @content;
+  }
+}
