@@ -20,4 +20,5 @@ It will either present itself as the global `state` variable or be available via
 * `state.has(el, has)` - Returns `true` if the element `el` has the given state `has`
 * `state.add(el, add)` - Adds the state `add` to the element `el`. If a state gets added that already exists, will not be added twice
 * `state.set(el, add)` Same as `state.add`
-* `state.remove(el, remove)` - Remvoes the state `state` from the element `el`. If multiple states present, will only remove the given state. If the last state gets removed, the `data-state` attribute will be removed
+* `state.remove(el, remove)` - Removes the state `state` from the element `el`. If multiple states present, will only remove the given state. If the last state gets removed, the `data-state` attribute will be removed
+* `state.toggle(el, toggle)` - Removes the state `toggle` from the element `el` if it exists, otherwise adds it
