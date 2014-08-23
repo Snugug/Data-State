@@ -85,7 +85,7 @@
         self.remove(el, toggle);
       }
       else {
-        self.add(el.toggle);
+        self.add(el, toggle);
       }
     };
   }
