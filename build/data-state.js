@@ -25,7 +25,7 @@
     this.has = function (el, has) {
       var states = self.get(el);
       if (states === null) {
-	return false
+        return false;
       }
       else if (states.indexOf(has) !== -1) {
         return true;
@@ -77,6 +77,15 @@
             el.setAttribute('data-state', current.join(' '));
           }
         }
+      }
+    };
+
+    this.toggle = function (el, toggle) {
+      if (self.has(el, toggle)) {
+        self.remove(el, toggle);
+      }
+      else {
+        self.add(el.toggle);
       }
     };
   }
