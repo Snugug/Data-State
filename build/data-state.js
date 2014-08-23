@@ -80,6 +80,11 @@
       }
     };
 
+    //////////////////////////////
+    // Toggles the given state
+    //
+    // Removes the current state from `data-state` attribute, if it exists, otherwise adds it
+    //////////////////////////////
     this.toggle = function (el, toggle) {
       if (self.has(el, toggle)) {
         self.remove(el, toggle);
